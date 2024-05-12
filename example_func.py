@@ -19,5 +19,15 @@ def step() -> int:
     return c ** 2
 
 
+def two_num_multiplication(a: int, b: int) -> int:
+    """
+    Перемножение двух чисел.
+    :param a: int
+    :param b: int
+    :return: int
+    """
+    return a * b
+
+
 if __name__ == '__main__':
     print(step())
