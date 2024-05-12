@@ -18,6 +18,9 @@ def test_step():
     c = plus(2, 2)
     assert c ** 2 == 16
 
+def test_step_for_null():
+    assert step() == 0
+
 
 if __name__ == '__main__':
     pytest.main()
