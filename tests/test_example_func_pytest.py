@@ -1,5 +1,5 @@
 import pytest
-from example_func import plus, step
+from example_func import plus, step, two_num_multiplication
 
 
 def test_plus():
@@ -19,8 +19,11 @@ def test_plus_must_be_zero_if_negative():
 
 
 def test_step():
-    c = plus(2, 2)
-    assert c ** 2 == 16
+    assert step() == 16
+
+
+def test_two_num_multiplication():
+    assert two_num_multiplication(3, 5) == 15
 
 def test_step_for_null():
     assert step() == 0
