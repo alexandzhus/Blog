@@ -3,7 +3,11 @@ from example_func import plus, step
 
 
 def test_plus():
-    assert plus(10, 10) == 20
+    
+    """
+    Описание теста
+    """
+    assert plus(10, 10) == 30
 
 
 def test_plus_zero():
